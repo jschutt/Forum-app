@@ -30,13 +30,13 @@ const Post = (props) => {
   }, []);
 
   return (
-    <div>
+    <>
       <Header title={"Post page"} />
       <Link to="/">
         <button>Back to home</button>
       </Link>
       <PostInfo postInfo={post} comments={comments} />
-    </div>
+    </>
   );
 };
 

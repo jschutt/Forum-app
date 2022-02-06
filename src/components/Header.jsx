@@ -1,7 +1,9 @@
+import style from './css/Header.module.css'
+
 const Header = (props) => {
     return (
-        <div>
-            <h1>{props.title}</h1>
+        <div className={style.siteHeader}>
+            <h1 className={style.title}>{props.title}</h1>
         </div>
     )
 }
