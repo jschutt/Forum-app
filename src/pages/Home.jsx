@@ -5,7 +5,7 @@ import Header from '../components/Header.jsx'
 const Home = ({posts}) => {
     return (
         <>
-            <Header title={'Home page'}/>
+            <Header title={`The Cat's Forum`}/>
             <PostList posts={posts}/>
         </>
     )

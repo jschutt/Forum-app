@@ -6,19 +6,26 @@
 
 .postContainer {
     margin: 8px 0px 8px 0px;
-    padding: 8px 5px 8px 5px;
-    border: 2px solid grey;
+    padding: 8px 15px 8px 5px;
+    background-color: #3f4950;
+    color: #cdd6dd;
+    border: 2px solid #30393f;
     border-radius: 15px;
     transition-duration: 0.3s;
+    width: fit-content;
 }
 
 .postContainer:hover {
-    color: blue;
-    background-color: lightblue;
+    background-color: #49545c;
+}
+
+.postContainer:active {
+    background-color: #30393f;
 }
 
 .postTitle {
     margin: 5px;
+    color:#cdd6dd;
 }
 
 .postLink {

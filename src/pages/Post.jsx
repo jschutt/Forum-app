@@ -2,6 +2,7 @@ import { useParams, useLocation, Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Header from "../components/Header.jsx";
 import PostInfo from "../components/PostInfo.jsx";
+import style from '../components/css/PostInfo.module.css'
 
 const Post = (props) => {
   const [post, setPost] = useState([]);
@@ -31,9 +32,9 @@ const Post = (props) => {
 
   return (
     <>
-      <Header title={"Post page"} />
+      <Header title={`Cat post #${id}`} />
       <Link to="/">
-        <button>Back to home</button>
+        <button className={style.backBtn}>Back to posts</button>
       </Link>
       <PostInfo postInfo={post} comments={comments} />
     </>
