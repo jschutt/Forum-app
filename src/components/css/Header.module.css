@@ -1,19 +1,26 @@
 .siteHeader {
- margin: 0px 0px 10px 0px;
-    padding: 10px;
-    color: white;
-    border-bottom: 3px solid #2d363b;
-    text-align: right;
+  margin: 0px 0px 10px 0px;
+  padding: 10px;
+  color: white;
+  /* border-bottom: 3px solid #2d363b; */
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: right;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3)), url("https://placekitten.com/1080/300");
+  height: 190px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 .title {
-    margin: 5px;
+  margin: 108px 20px 0px 0px;
+  font-size: 58px;
 }
-
 
 .catBanner {
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
 }
-

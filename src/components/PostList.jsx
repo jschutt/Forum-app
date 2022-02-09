@@ -14,7 +14,8 @@ const Posts = ({ posts }) => {
               state={{ postInfo: { ...post } }} key={post.id}
             >
               <li className={style.postContainer}>
-                <strong>#{post.id}</strong> {post.title}
+              <p className={style.postTitleNumber}>Post #{post.id}</p> 
+                {post.title}
               </li>
             </Link>
           ))}

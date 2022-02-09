@@ -9,9 +9,9 @@
 
 .postContainer {
     margin: 8px 0px 8px 0px;
-    padding: 8px 15px 8px 5px;
+    padding: 8px 15px 8px 15px;
     background-color: #3f4950;
-    color: #cdd6dd;
+    color: white;
     border: 2px solid #30393f;
     border-radius: 15px;
     transition-duration: 0.3s;
@@ -33,4 +33,12 @@
 .postLink {
     text-decoration: none;
     color: black;
+}
+
+.postTitleNumber {
+    color: #cdd6dd;
+    margin: 0;
+    padding: 0px 0px 8px 0px;
+    font-weight: bold;
+    border-bottom: 1px dashed #30393f;
 }

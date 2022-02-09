@@ -34,6 +34,7 @@
 }
 
 .commentContainer {
+    width: fit-content;
     color: #cdd6dd;
     background-color: #3f4950;
     border: 2px solid #2d363b;
