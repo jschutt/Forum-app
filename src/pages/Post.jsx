@@ -7,7 +7,6 @@ import style from '../components/css/PostInfo.module.css'
 const Post = (props) => {
   const [post, setPost] = useState([]);
   const [comments, setComments] = useState([]);
-  const [commentId, setCommentId] = useState(0);
 
   const { id } = useParams();
   const location = useLocation();

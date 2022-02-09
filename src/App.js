@@ -3,6 +3,7 @@ import {Routes, Route} from 'react-router-dom'
 import {useEffect, useState} from 'react'
 import Home from './pages/Home.jsx'
 import Post from './pages/Post.jsx'
+import Header from './components/Header'
 
 function App() {
 
