@@ -2,7 +2,6 @@
   margin: 0px 0px 10px 0px;
   padding: 10px;
   color: white;
-  /* border-bottom: 3px solid #2d363b; */
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
   text-align: right;
@@ -16,7 +15,7 @@
 
 .title {
   margin: 108px 20px 0px 0px;
-  font-size: 58px;
+  font-size: 50px;
 }
 
 .catBanner {

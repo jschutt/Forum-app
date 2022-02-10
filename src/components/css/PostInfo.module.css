@@ -8,6 +8,10 @@
     margin-bottom: 20px;
 }
 
+.mainPostContainerHide {
+    display: none;
+}
+
 .mainBody {
     border-top: 1px solid black;
     padding-top: 20px;
@@ -76,4 +80,8 @@
 
 .backBtn:hover {
     background-color: #3f4950;
+}
+
+.errorPostTitle{
+    color: #cdd6dd;
 }

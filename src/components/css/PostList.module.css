@@ -8,7 +8,7 @@
 }
 
 .postContainer {
-    margin: 8px 0px 8px 0px;
+    margin: 0px 0px 10px 0px;
     padding: 8px 15px 8px 15px;
     background-color: #3f4950;
     color: white;
@@ -26,8 +26,51 @@
 }
 
 .postTitle {
-    margin: 5px;
-    color:#cdd6dd;
+    padding-left: 10px;
+    width: 50%;
+    margin: 0;
+    color:white;
+}
+
+.searchTitleContainer {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.searchTitleContainer label {
+    color: white;
+}
+
+.searchTitleContainer input {
+    width: 25%;
+    border-radius: 10px;
+    padding: 3px 3px 3px 8px;
+    margin: 0px 5px 0px 5px;
+    border: none;
+}
+
+.searchContainer {
+    padding-right: 10px;
+    width: 50%;
+    text-align: right;
+}
+
+.postSearchBtn {
+    margin: 0px;
+    padding: 3px 8px 3px 8px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #cdd6dd;
+    background-color: #3f4950;
+    border: 2px solid #3f4950;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+
+.postSearchBtn:hover {
+    background-color: #49545c;
+    cursor: pointer;
 }
 
 .postLink {
@@ -41,4 +84,12 @@
     padding: 0px 0px 8px 0px;
     font-weight: bold;
     border-bottom: 1px dashed #30393f;
+}
+
+.linkOn {
+    pointer-events:all;
+}
+
+.linkOff {
+    pointer-events:none;
 }
