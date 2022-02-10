@@ -1,27 +1,16 @@
 import style from "./css/PostList.module.css";
 import { Link } from "react-router-dom";
-import {useState, useEffect} from 'react'
+import {useState } from 'react'
 
 const Posts = ({ posts }) => {
 
   const [searchValue, setSearchValue] = useState(0);
-  const [checkSearch, setCheckSearch] = useState();
 
   const getSearchValue = () => {
     let value = +document.querySelector("#postSearch").value;
     setSearchValue(value);
     console.log(value)
   };
-
-  // const checkSearchValue = () => {
-  //   if(searchValue > 100 || searchValue < 1){
-  //     setCheckSearch(false);
-  //     alert("Please select a number between 1-100");
-  //   } else {
-  //     setCheckSearch(true);
-  //   }
-  //   console.log(checkSearch)
-  // }
 
   return (
     <>
